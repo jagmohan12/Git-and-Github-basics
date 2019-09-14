@@ -1,0 +1,21 @@
+
+#hashtag for message
+
+Create Repository :  
+                git init  #(create local repository)
+
+Syncing Repository : 
+                git remote add origin "C:\Users\Jagmohan Singh\Documents\Git"
+                git pull origin master       #get all the files from central repository                 
+                
+                
+ Making changes :
+ 
+                git status   #files which are in index  and which we can add to index so that we can commit change in local repository
+                git add myfile.txt   #file are added in index
+                git commit -m "we can write our message here..like adding 1st commit in local repository"
+                
+                git add -A   	#add all the files in index 
+                git commit -a  #commit all the files
+                
+                git log   #see all 
