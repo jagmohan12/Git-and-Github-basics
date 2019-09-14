@@ -19,3 +19,23 @@ Syncing Repository :
                 git commit -a  #commit all the files
                 
                 git log   #see all 
+                
+   
+   
+ Branching    :  git branch jsingh  #create branch
+                 git checkout jsingh  #change branch from  master to FB
+                  
+                  rm -f .git/index.lock    #for deleting index.lock file in .git
+        
+
+Merging   :   git checkout master
+              git merge jsingh #merge of jsingh in master
+              
+              
+ git pull =  git fetch + git merge
+ 
+ 
+ rebasing : for linear work flow --navigate better
+            branches are avoided , linearly searching
+            
+            
