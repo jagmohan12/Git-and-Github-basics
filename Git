@@ -7,7 +7,7 @@ Create Repository :
 Syncing Repository : 
                 git remote add origin "C:\Users\Jagmohan Singh\Documents\Git"
                 git pull origin master       #get all the files from central repository                 
-                
+                git push origin master       #in end
                 
  Making changes :
  
